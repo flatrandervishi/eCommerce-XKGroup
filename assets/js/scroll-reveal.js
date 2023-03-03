@@ -1,7 +1,7 @@
 // Home Page
 ScrollReveal().reveal(".heroIntro", { delay: 200 });
 ScrollReveal().reveal(".overview", { delay: 300 });
-ScrollReveal().reveal(".elementIntro", { delay: 400 });
+ScrollReveal().reveal(".elementIntro", { delay: 500 });
 ScrollReveal().reveal(".feature", { delay: 400 });
 ScrollReveal().reveal(".cards", { delay: 300 });
 ScrollReveal().reveal(".image-gallery", { delay: 400 });
