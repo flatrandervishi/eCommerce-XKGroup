@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="assets/img/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Passion+One&family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <title>Shipping</title>
+  </head>
+  <body>
+    <header class="main-area">
+      <!-- site-navbar start -->
+      <div class="navbar-area">
+        <div class="container">
+          <nav class="site-navbar">
+            <!-- site logo -->
+            <a href="index.html" class="site-logo">
+              <img src="./assets/img/logo.png" />
+            </a>
+
+            <!-- site menu/nav -->
+            <ul>
+              <li><a href="index.html">home</a></li>
+              <li><a href="shipping.html">shipping</a></li>
+              <li><a href="checkout.html">checkout</a></li>
+              <li><a href="#">contact</a></li>
+            </ul>
+
+            <!-- nav-toggler for mobile version only -->
+            <button class="nav-toggler">
+              <span></span>
+            </button>
+          </nav>
+          <!-- navbar-area end -->
+        </div>
+      </div>
+
+      <!-- shippContainer start -->
+      <div class="shippContainer">
+        <div class="shippingHeader">
+          <p class="shippingHeader--1">Order & Shipp</p>
+        </div>
+        <div class="card">
+          <div class="leftCardPart">
+            <div class="form__group">
+              <input
+                type="text"
+                class="form__input"
+                placeholder="First name"
+                id="name"
+                required
+              />
+              <label for="name" class="form__label">First name</label>
+            </div>
+
+            <div class="form__group">
+              <input
+                type="text"
+                class="form__input"
+                placeholder="Last name"
+                id="lastname"
+                required
+              />
+              <label for="lastname" class="form__label">Last name</label>
+            </div>
+
+            <div class="form__group">
+              <input
+                type="number"
+                class="form__input"
+                placeholder="ZIP/Postal Code"
+                id="ZIP"
+                required
+              />
+              <label for="ZIP" class="form__label">ZIP/Postal Code</label>
+            </div>
+
+            <div class="form__group">
+              <input
+                type="text"
+                class="form__input"
+                placeholder="Address"
+                id="Address"
+                required
+              />
+              <label for="Address" class="form__label">Address</label>
+            </div>
+
+            <div class="form__group">
+              <input
+                type="text"
+                class="form__input"
+                placeholder="Apt/suite"
+                id="Apt"
+                required
+              />
+              <label for="Apt" class="form__label">Apt/suite</label>
+            </div>
+          </div>
+
+          <div class="rightCardPart">
+            <div class="form__group">
+              <input
+                type="text"
+                class="form__input"
+                placeholder=" City"
+                id="City"
+                required
+              />
+              <label for="City" class="form__label">City</label>
+            </div>
+
+            <div class="form__group">
+              <input
+                type="text"
+                class="form__input"
+                placeholder="State"
+                id="State"
+                required
+              />
+              <label for="State" class="form__label">State</label>
+            </div>
+
+            <div class="form__group">
+              <input
+                type="text"
+                class="form__input"
+                placeholder="Phone Number"
+                id="Phone"
+                required
+              />
+              <label for="Phone" class="form__label">Phone Number</label>
+            </div>
+
+            <div class="form__group">
+              <input
+                type="email"
+                class="form__input"
+                placeholder="Email address"
+                id="email"
+                required
+              />
+              <label for="email" class="form__label">Email address</label>
+            </div>
+
+            <div class="form__group">
+              <a href="checkout.html" class="button">Next step &rarr;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- shippContainer end -->
+    </header>
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+    <script>
+      ScrollReveal({ duration: 1000 });
+    </script>
+    <script src="./assets/js/scroll-reveal.js"></script>
+  </body>
+</html>

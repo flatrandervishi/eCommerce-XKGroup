@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="assets/img/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Passion+One&family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <title>Checkout</title>
+  </head>
+  <body>
+    <header class="main-area">
+      <!-- site-navbar start -->
+      <div class="navbar-area">
+        <div class="container">
+          <nav class="site-navbar">
+            <!-- site logo -->
+            <a href="index.html" class="site-logo">
+              <img src="./assets/img/logo.png" />
+            </a>
+
+            <!-- site menu/nav -->
+            <ul>
+              <li><a href="index.html">home</a></li>
+              <li><a href="shipping.html">shipping</a></li>
+              <li><a href="checkout.html">checkout</a></li>
+              <li><a href="#">contact</a></li>
+            </ul>
+
+            <!-- nav-toggler for mobile version only -->
+            <button class="nav-toggler">
+              <span></span>
+            </button>
+          </nav>
+          <!-- navbar-area end -->
+        </div>
+      </div>
+
+      <!-- shippContainer start -->
+      <div class="shippContainer">
+        <div class="shippingHeader">
+          <p class="shippingHeader--1">Checkout</p>
+        </div>
+        <div class="card">
+          <div class="leftCardPart">
+            <h3>Your personal information</h3>
+            <div class="form__group">
+              <input
+                type="number"
+                class="form__input"
+                placeholder="Card Number"
+                id="Card Number"
+                required
+              />
+              <label for="Card Number" class="form__label">Card Number</label>
+            </div>
+
+            <div class="form__group">
+              <input
+                type="date"
+                class="form__input"
+                placeholder="Expiration Date"
+                id="Expiration Date"
+                required
+              />
+              <label for="Expiration Date" class="form__label"
+                >Expiration Date</label
+              >
+            </div>
+
+            <div class="form__group">
+              <input
+                type="number"
+                class="form__input"
+                placeholder="CVV"
+                id="CVV"
+                required
+              />
+              <label for="CVV" class="form__label">CVV</label>
+            </div>
+          </div>
+
+          <div class="rightCardPart">
+            <h3>Proceed to Pay</h3>
+
+            <div class="paymentCard">
+              <div class="paymentInfo">
+                <h4>Pay using Paypal</h4>
+                <p>Fast, easy and secure</p>
+              </div>
+              <div class="paymentImg">
+                <img src="./assets/img/paypal.png" alt="Paypal" />
+              </div>
+            </div>
+
+            <div class="paymentCard">
+              <div class="paymentInfo">
+                <h4>Pay using Debit / Credit Card</h4>
+                <p>Visa, MasterCard, Maestro, Discover</p>
+              </div>
+              <div class="paymentImg">
+                <img src="./assets/img/visa.png" alt="Visa" />
+              </div>
+            </div>
+            <div class="form__group">
+              <a href="thankyou.html" class="button">Order now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- shippContainer end -->
+    </header>
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+    <script>
+      ScrollReveal({ duration: 1000 });
+    </script>
+    <script src="./assets/js/scroll-reveal.js"></script>
+  </body>
+</html>
